@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitNowClient", "RecruitNowClient\RecruitNowClient.csproj", "{D70AE1EA-3375-464F-88B9-135E373CBD52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecificTemplates", "SpecificTemplates", "{ED4D5FDB-5C51-40DC-A14B-F477047E884A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTemplates.Api", "CustomTemplates.Api\CustomTemplates.Api.csproj", "{B850312F-2368-468B-A58B-1BB4F1AF2098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTemplates.FlexiApiClient", "CustomTemplates.FlexiApiClient\CustomTemplates.FlexiApiClient.csproj", "{0CB6417A-BFD4-4EBE-BAE3-31D89E3A0474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70AE1EA-3375-464F-88B9-135E373CBD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70AE1EA-3375-464F-88B9-135E373CBD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70AE1EA-3375-464F-88B9-135E373CBD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70AE1EA-3375-464F-88B9-135E373CBD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B850312F-2368-468B-A58B-1BB4F1AF2098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B850312F-2368-468B-A58B-1BB4F1AF2098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B850312F-2368-468B-A58B-1BB4F1AF2098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B850312F-2368-468B-A58B-1BB4F1AF2098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB6417A-BFD4-4EBE-BAE3-31D89E3A0474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB6417A-BFD4-4EBE-BAE3-31D89E3A0474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB6417A-BFD4-4EBE-BAE3-31D89E3A0474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB6417A-BFD4-4EBE-BAE3-31D89E3A0474}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D70AE1EA-3375-464F-88B9-135E373CBD52} = {ED4D5FDB-5C51-40DC-A14B-F477047E884A}
+	EndGlobalSection
+EndGlobal

@@ -1,43 +1,39 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+# Ignore the entire .idea folder
+.idea/
 
-# Common IntelliJ Platform excludes
+# Exclude specific Rider files that are not necessary to track
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dictionaries
+.idea/httpRequests/
+.idea/dataSources/
+.idea/vcs.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/indexLayout.xml
 
-# User specific
-**/.idea/**/workspace.xml
-**/.idea/**/tasks.xml
-**/.idea/shelf/*
-**/.idea/dictionaries
-**/.idea/httpRequests/
+# Rider-specific files that get auto-generated
+.idea/modules.xml
+.idea/contentModel.xml
 
-# Sensitive or high-churn files
-**/.idea/**/dataSources/
-**/.idea/**/dataSources.ids
-**/.idea/**/dataSources.xml
-**/.idea/**/dataSources.local.xml
-**/.idea/**/sqlDataSources.xml
-**/.idea/**/dynamic.xml
-**/idea/**/encodings.xml
-**/.idea/**/vcs.xml
-**/.idea/**/indexLayout.xml
+# Rider caches
+_ReSharper.Caches/
 
-# Rider
-# Rider auto-generates .iml files, and contentModel.xml
-**/.idea/**/*.iml
-**/.idea/**/contentModel.xml
-**/.idea/**/modules.xml
-
-*.suo
-*.user
-.vs/
-[Bb]in/
-[Oo]bj/
-_UpgradeReport_Files/
-[Pp]ackages/
-
+# OS-specific files (optional, but generally useful to ignore)
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Build artifacts
+bin/
+obj/
+
+# Rider auto-generated files for solution or project files
+*.suo
+*.user
+.vs/
+
+# Ignore appsettings files
+appsettings.json
+appsettings.Development.json
